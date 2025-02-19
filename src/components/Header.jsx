@@ -4,9 +4,9 @@ export default function Header() {
 
    return (
 
-      <header>
+      <header className='p-30'>
 
-         <h1 className="text-orange-700">Header</h1>
+         <h1 className="bg-customDarkBlue text-customLight font-customRoboto">Header</h1>
 
       </header>
 
