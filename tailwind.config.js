@@ -43,17 +43,18 @@ export default {
 
       fontWeight: {
 
-        light: 300,
-        normal: 400,
-        medium: 500,
-        bold: 700,
+        customLight: 300,
+        customNormal: 400,
+        customMedium: 500,
+        customBold: 700,
 
       },
 
       fontSize: {
 
-        '2xs': '11px',
-        'xs': '13px',
+        '3xs': '11px',
+        '2xs': '13px',
+        'xs': '14px',
         'sm': '15px',
         'base': '16px',
         'lg': '24px',
