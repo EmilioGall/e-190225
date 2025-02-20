@@ -24,7 +24,7 @@ export default function Jumbo() {
             Plans are nothing, planning is everything
          </h1>
 
-         <div className="z-10 w-full xs:w-5/12 pb-5 flex flex-col gap-10 justify-between">
+         <div className="z-10 w-full xs:w-5/12 pb-5 xs:pt-6 flex flex-col gap-10 justify-between">
 
             <div>
 
@@ -40,7 +40,7 @@ export default function Jumbo() {
 
             <div>
 
-               <Button arrow={true} text={'DISCOVER'} />
+               <Button arrow={true} text={'DISCOVER'} cursor={'default'} />
 
             </div>
 
