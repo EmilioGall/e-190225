@@ -1,17 +1,29 @@
 import React from 'react';
+import backgroundImage1 from '../assets/img/iStock-1279248902 1.png';
+import backgroundImage2 from '../assets/img/iStock-1279248902 2.png';
 import Socials from './Socials';
 
 export default function Jumbo() {
 
    return (
 
-      <section className="flex flex-col xs:flex-row justify-between gap-10 p-8 xs:p-40">
+      <section
+         className="flex flex-col xs:flex-row justify-between gap-10 text-customLight p-8 pt-20 xs:p-60 bg-cover bg-center w-full bg-image-1 xs:bg-image-2"
 
-         <h1 className="font-customRobotoSlab font-customNormal text-2xl cursor-default w-full xs:w-5/12">
+      >
+
+         <div
+            className="absolute inset-0 bg-black bg-opacity-50"
+            style={{
+               zIndex: 0,
+            }}
+         ></div>
+
+         <h1 className="z-10 font-customRobotoSlab font-customNormal text-2xl cursor-default w-full xs:w-5/12">
             Plans are nothing, planning is everything
          </h1>
 
-         <div className="w-full xs:w-5/12 pb-5">
+         <div className="z-10 w-full xs:w-5/12 pb-5">
 
             <h3 className="font-customRoboto font-customBold text-sm text-customYellow cursor-default pb-2">
                Maria Rossi
@@ -25,11 +37,19 @@ export default function Jumbo() {
 
          </div>
 
-         <div className="flex xs:hidden">
+         <div className="z-10 flex xs:hidden">
 
             <Socials facebook={'/'} twitter={'/'} youtube={'/'} linkedin={'/'} />
 
          </div>
+
+         <style jsx>{`
+            @media (min-width: 422px) {
+               section {
+                  background-image: url(${backgroundImage2});
+               }
+            }
+         `}</style>
 
       </section>
 

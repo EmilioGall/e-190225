@@ -63,6 +63,11 @@ export default {
 
       },
 
+      backgroundImage: theme => ({
+        'image-1': "url('./src/assets/img/iStock-1279248902 1.png')",
+        'image-2': "url('./src/assets/img/iStock-1279248902 2.png')",
+      }),
+
     },
 
   },

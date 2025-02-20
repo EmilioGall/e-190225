@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+   @media (min-width: 422px) {
+     .bg-image-2 {
+       background-image: url('./assets/img/iStock-1279248902 2.png');
+     }
+   }
+ }
