@@ -83,7 +83,7 @@ export default {
 
       animation: {
 
-        "infinite-scroll": "infinite-scroll 10s linear infinite",
+        "infinite-scroll": "infinite-scroll 8s linear infinite",
 
       },
 
