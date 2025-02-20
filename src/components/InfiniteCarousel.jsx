@@ -1,22 +1,36 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
-export default function Clients({string}) {
+export default function InfiniteCarousel({ brands }) {
+
+   const extendedBrands = [...brands, ...brands, ...brands, ...brands, ...brands];
+
+   console.log(brands);
 
    return (
+      <div className="flex text-customYellow overflow-x-hidden border border-x-0 border-customYellow w-full">
 
-      <div className="w-full overflow-hidden border-2 border-x-0 border-customYellow">
+         <ul className="flex gap-2 animate-infinite-scroll">
 
-         <div className="font-customRobotoSlab font-customNormal text-lg text-customYellow flex whitespace-nowrap">
+            {
+               extendedBrands.map((brand, index) => {
 
-            <span className="ps-2">{string}</span>
-            <span className="ps-2">{string}</span>
-            <span className="ps-2">{string}</span>
+                  return (
+                     <li
+                        className="font-customRobotoSlab font-customNormal text-lg flex gap-2"
+                        key={index}
+                     >
+                        {brand.name}
 
-         </div>
+                        <span>-</span>
+                        
+                     </li>
+                  )
+
+               })
+            }
+
+         </ul>
 
       </div>
-
-
    );
-
 };

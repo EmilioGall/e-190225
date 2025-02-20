@@ -3,8 +3,16 @@ import InfiniteCarousel from './InfiniteCarousel';
 
 export default function Clients() {
 
-   const brands = ['LAURENE', 'ITALY', 'VAGUE', 'KLEE', 'KLESS', 'RIK', 'ECO', 'WOOD']
-   const brandString = ` ${brands.join(' - ')} -`;
+   const brands = [
+      { name: 'LAURENE' },
+      { name: 'ITALY' },
+      { name: 'VAGUE' },
+      { name: 'KLEE' },
+      { name: 'KLESS' },
+      { name: 'RIK' },
+      { name: 'ECO' },
+      { name: 'WOOD' },
+   ];
 
    return (
 
@@ -14,7 +22,7 @@ export default function Clients() {
             CLIENTS & COLLABORATIONS
          </h2>
 
-         <InfiniteCarousel string={brandString}/>
+         <InfiniteCarousel brands={brands} />
 
       </section>
 
