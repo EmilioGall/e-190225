@@ -9,7 +9,7 @@ export default function Jumbo() {
    return (
 
       <section
-         className="flex flex-col xs:flex-row justify-between gap-10 text-customLight p-8 pt-20 xs:p-60 bg-cover bg-center w-full bg-image-1 xs:bg-image-2"
+         className="flex flex-col xs:flex-row justify-between gap-10 text-customLight p-8 pt-20 xs:p-60 bg-cover bg-center w-full bg-image-1 xs:bg-image-2 relative"
 
       >
 
@@ -51,14 +51,6 @@ export default function Jumbo() {
             <Socials facebook={'/'} twitter={'/'} youtube={'/'} linkedin={'/'} />
 
          </div>
-
-         <style jsx>{`
-            @media (min-width: 422px) {
-               section {
-                  background-image: url(${backgroundImage2});
-               }
-            }
-         `}</style>
 
       </section>
 
