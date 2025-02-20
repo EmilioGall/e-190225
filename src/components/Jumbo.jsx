@@ -1,6 +1,4 @@
 import React from 'react';
-import backgroundImage1 from '../assets/img/iStock-1279248902 1.png';
-import backgroundImage2 from '../assets/img/iStock-1279248902 2.png';
 import Socials from './Socials';
 import Button from './Button';
 
@@ -20,7 +18,7 @@ export default function Jumbo() {
             }}
          ></div>
 
-         <h1 className="z-10 font-customRobotoSlab font-customNormal text-2xl cursor-default w-full xs:w-5/12">
+         <h1 className="z-10 font-customRobotoSlab font-customNormal text-3xl cursor-default w-full xs:w-5/12">
             Plans are nothing, planning is everything
          </h1>
 

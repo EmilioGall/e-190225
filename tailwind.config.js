@@ -59,7 +59,8 @@ export default {
         'base': '16px',
         'lg': '24px',
         'xl': '32px',
-        '2xl': '48px',
+        '2xl': '36px',
+        '3xl': '48px',
 
       },
 
