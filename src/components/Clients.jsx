@@ -1,4 +1,5 @@
 import React from 'react';
+import InfiniteCarousel from './InfiniteCarousel';
 
 export default function Clients() {
 
@@ -13,17 +14,7 @@ export default function Clients() {
             CLIENTS & COLLABORATIONS
          </h2>
 
-         <div className="w-full overflow-hidden border-2 border-x-0 border-customYellow">
-
-            <div className="font-customRobotoSlab font-customNormal text-lg text-customYellow flex whitespace-nowrap">
-
-               <span className="ps-2">{brandString}</span>
-               <span className="ps-2">{brandString}</span>
-               <span className="ps-2">{brandString}</span>
-
-            </div>
-
-         </div>
+         <InfiniteCarousel string={brandString}/>
 
       </section>
 
