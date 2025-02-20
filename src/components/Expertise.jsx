@@ -19,7 +19,7 @@ export default function Expertise() {
          title: titles[0],
          order: 'order-1',
          hoverText: 'Founder, art director, exhibition coordinator, Director of the Contemporary Art Institute of Lisbon, Portugal, and curator for the Scandinavian Pavilion at the 2023 Venice Art Biennale.',
-         hoverTitle: titles[0],
+         hoverTitle: '2020-22',
       },
       { img: bgImage2, title: titles[1], order: 'order-2 xs:order-3' },
       { img: bgImage3, title: titles[2], order: 'order-3 xs:order-2' },

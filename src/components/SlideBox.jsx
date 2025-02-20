@@ -34,12 +34,12 @@ const SlideBox = ({ backgroundImage, title, hoverText, hoverTitle, order }) => {
 
             <span className="font-customRoboto font-customLight text-sm text-white text-center py-2">
 
-               2020-22
+               {hoverTitle}
 
             </span>
 
             <p className="font-customRoboto font-customMedium text-base text-white text-center py-4">
-               Founder, art director, exhibition coordinator, Director of the Contemporary Art Institute of Lisbon, Portugal, and curator for the Scandinavian Pavilion at the 2023 Venice Art Biennale.
+               {hoverText}
             </p>
 
          </div>
