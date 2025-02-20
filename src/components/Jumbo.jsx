@@ -13,7 +13,7 @@ export default function Jumbo() {
       >
 
          <div
-            className="absolute inset-0 bg-black bg-opacity-50"
+            className="absolute inset-0 bg-gradient-to-b from-customDarkBlue"
             style={{
                zIndex: 0,
             }}
