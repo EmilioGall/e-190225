@@ -13,7 +13,7 @@ export default function Biography() {
 
    return (
 
-      <section className="flex flex-col xs:items-center text-customLight bg-customDark py-8 px-8 xs:px-0">
+      <section className="flex flex-col xs:items-center text-customLight bg-customDark pt-24 px-8 xs:px-0">
 
          <h2 className="font-customRoboto font-customNormal text-lg pb-4 xs:pb-8">BIOGRAPHY</h2>
 
@@ -48,7 +48,7 @@ export default function Biography() {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque euismod libero, in commodo velit tincidunt at. Donec cursus scelerisque sodales. Vivamus auctor fringilla laoreet. Nulla lacinia metus sed lorem aliquet, nec varius nunc efficitur. Nullam rhoncus a neque aliquam interdum.Suspendisse vehicula blandit nulla nec imperdiet.
                </p>
 
-               <div className={`z-20`}>
+               <div className={`z-20 self-start xs:self-center`}>
 
                   <Button arrow={false} text={'READ MORE'} functionOnClick={handleButtonClick} />
 

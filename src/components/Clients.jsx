@@ -16,7 +16,7 @@ export default function Clients() {
 
    return (
 
-      <section className="flex flex-col items-center text-customLight bg-customDark py-8 overflow-hidden">
+      <section className="flex flex-col items-center text-customLight bg-customDark bg-gradient-to-b from-customDarkBlue pt-24 overflow-hidden">
 
          <h2 className="font-customRoboto font-customNormal text-lg text-center pb-4 xs:pb-8">
             CLIENTS & COLLABORATIONS

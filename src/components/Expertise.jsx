@@ -31,7 +31,7 @@ export default function Expertise() {
 
    return (
 
-      <section className="flex flex-col xs:items-center text-customLight bg-customDark py-8">
+      <section className="flex flex-col xs:items-center text-customLight bg-customDark pt-24">
 
          <h2 className="font-customRoboto font-customNormal text-lg ps-8 xs:ps-0 xs:text-center pb-4 xs:pb-8">EXPERTISE</h2>
 
