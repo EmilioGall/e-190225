@@ -10,7 +10,7 @@ export default function Header({ type, facebook, twitter, youtube, linkedin }) {
 
       return (
 
-         <ul className='hidden xs:flex items-center space-x-5'>
+         <ul className="flex items-center space-x-5">
 
             {
                facebook ?
@@ -68,7 +68,7 @@ export default function Header({ type, facebook, twitter, youtube, linkedin }) {
 
       return (
 
-         <ul className='hidden xs:flex items-center space-x-5'>
+         <ul className="flex items-center space-x-5">
 
             {
                facebook ?
