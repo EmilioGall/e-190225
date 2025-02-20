@@ -27,6 +27,7 @@ export default {
       colors: {
 
         customLight: '#FBF4E6',
+        customGrey: '#51686F',
         customDark: '#010D10',
 
         customYellow: '#FCBF49',
