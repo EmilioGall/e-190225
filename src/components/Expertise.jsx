@@ -13,12 +13,12 @@ export default function Expertise() {
 
    const expertiseData = [
 
-      { img: bgImage1, title: titles[0] },
-      { img: bgImage2, title: titles[1] },
-      { img: bgImage3, title: titles[2] },
-      { img: bgImage4, title: titles[3] },
-      { img: bgImage5, title: titles[4] },
-      { img: bgImage6, title: titles[5] },
+      { img: bgImage1, title: titles[0], order: 'order-1' },
+      { img: bgImage2, title: titles[1], order: 'order-2 xs:order-3' },
+      { img: bgImage3, title: titles[2], order: 'order-3 xs:order-2' },
+      { img: bgImage4, title: titles[3], order: 'order-4' },
+      { img: bgImage5, title: titles[4], order: 'order-5' },
+      { img: bgImage6, title: titles[5], order: 'order-6' },
 
    ];
 
@@ -35,7 +35,7 @@ export default function Expertise() {
 
                   <div
                      key={index}
-                     className="w-full h-full aspect-square bg-no-repeat bg-cover bg-center"
+                     className={`w-full h-full aspect-square bg-no-repeat bg-cover bg-center ${item.order}`}
                      style={{ backgroundImage: `url(${item.img})` }}
                   >
 
