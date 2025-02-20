@@ -66,9 +66,26 @@ export default {
       },
 
       backgroundImage: theme => ({
+
         'image-1': "url('./src/assets/img/iStock-1279248902 1.png')",
         'image-2': "url('./src/assets/img/iStock-1279248902 2.png')",
+
       }),
+
+      keyframes: {
+
+        "infinite-scroll": {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(calc((1/5)*-100%))" },
+        },
+
+      },
+
+      animation: {
+
+        "infinite-scroll": "infinite-scroll 10s linear infinite",
+
+      },
 
     },
 
