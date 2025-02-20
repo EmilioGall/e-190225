@@ -2,6 +2,7 @@ import React from 'react';
 import backgroundImage1 from '../assets/img/iStock-1279248902 1.png';
 import backgroundImage2 from '../assets/img/iStock-1279248902 2.png';
 import Socials from './Socials';
+import Button from './Button';
 
 export default function Jumbo() {
 
@@ -23,17 +24,25 @@ export default function Jumbo() {
             Plans are nothing, planning is everything
          </h1>
 
-         <div className="z-10 w-full xs:w-5/12 pb-5">
+         <div className="z-10 w-full xs:w-5/12 pb-5 flex flex-col gap-10 justify-between">
 
-            <h3 className="font-customRoboto font-customBold text-sm text-customYellow cursor-default pb-2">
-               Maria Rossi
-            </h3>
+            <div>
 
-            <p className="font-customRoboto font-customNormal text-base cursor-default">
-               Strategic consultant con un focus specifico rivolto a Corporate innovation, Business growth e Marketing.
-            </p>
+               <h3 className="font-customRoboto font-customBold text-sm text-customYellow cursor-default pb-2">
+                  Maria Rossi
+               </h3>
 
-            <a href="/">Discover</a>
+               <p className="font-customRoboto font-customNormal text-base cursor-default">
+                  Strategic consultant con un focus specifico rivolto a Corporate innovation, Business growth e Marketing.
+               </p>
+
+            </div>
+
+            <div>
+
+               <Button arrow={true} text={'DISCOVER'} />
+
+            </div>
 
          </div>
 
