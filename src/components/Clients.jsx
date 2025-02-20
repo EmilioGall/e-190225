@@ -6,7 +6,7 @@ export default function Clients() {
    const brands = [
       { name: 'LAURENE' },
       { name: 'ITALY' },
-      { name: 'VAGUE' },
+      { name: 'VOGUE' },
       { name: 'KLEE' },
       { name: 'KLESS' },
       { name: 'RIK' },

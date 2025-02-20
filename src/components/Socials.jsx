@@ -2,7 +2,7 @@ import React from 'react';
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 
 export default function Header({ type, facebook, twitter, youtube, linkedin }) {
 
@@ -10,7 +10,7 @@ export default function Header({ type, facebook, twitter, youtube, linkedin }) {
 
       return (
 
-         <ul className="flex items-center space-x-5">
+         <ul className="flex items-center space-x-5 font-customRoboto font-customNormal text-2xs cursor-pointer">
 
             {
                facebook ?
@@ -111,7 +111,7 @@ export default function Header({ type, facebook, twitter, youtube, linkedin }) {
                   <li>
 
                      <a href={linkedin}>
-                        <FaLinkedin size={16} />
+                        <FaLinkedinIn size={16} />
                      </a>
 
                   </li>
