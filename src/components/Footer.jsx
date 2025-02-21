@@ -31,7 +31,7 @@ export default function Footer() {
 
    return (
 
-      <section className="flex flex-col gap-4 text-customLight bg-customDark bg-gradient-to-t from-customDarkBlue pt-12 pb-4 px-8 xs:px-32 overflow-hidden">
+      <footer className="flex flex-col gap-4 text-customLight bg-customDark bg-gradient-to-t from-customDarkBlue pt-12 pb-4 px-8 xs:px-32 overflow-hidden">
 
          <div className="grid grid-cols-1 grid-rows-10 xs:grid-cols-3 xs:grid-rows-2 items-center xs:justify-between gap-2 text-center xs:text">
 
@@ -71,7 +71,7 @@ export default function Footer() {
 
          </div>
 
-      </section>
+      </footer>
 
    );
 
