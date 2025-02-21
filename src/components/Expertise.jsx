@@ -50,7 +50,7 @@ export default function Expertise() {
 
                   <div
                      key={index + 1}
-                     className={`w-full h-full aspect-square z-30 bg-no-repeat bg-cover bg-center ${item.order}`}
+                     className={`aspect-square z-30 bg-no-repeat bg-cover xs:bg-auto bg-center ${item.order}`}
                      style={{ backgroundImage: `url(${item.img})` }}
                   >
 

@@ -13,7 +13,7 @@ const SlideBox = ({ backgroundImage, title, hoverText, hoverTitle, order }) => {
    return (
 
       <div
-         className={`relative flex w-full h-full aspect-square bg-no-repeat bg-cover bg-center overflow-x-hidden ${order}`}
+         className={`relative flex w-full h-full aspect-square bg-no-repeat bg-cover xs:bg-auto bg-center overflow-x-hidden ${order}`}
          style={{ backgroundImage: `url(${backgroundImage})` }}
          onMouseEnter={() => handleHover(true)}
          onMouseLeave={() => handleHover(false)}
